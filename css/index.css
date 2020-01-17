@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+/* my code starts here */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:first-child {
+    transform: translateY(-20%);
+}
+
+.header-img {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+/* my code ends here */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
