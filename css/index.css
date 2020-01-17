@@ -72,6 +72,7 @@ p {
 }
 
 /* my code starts here */
+/* header styles */
 header nav {
     display: flex;
     justify-content: space-around;
@@ -93,6 +94,7 @@ header nav a:first-child {
     padding-top: 5%;
     padding-bottom: 3%;
 }
+
 
 /* my code ends here */
 
@@ -129,13 +131,52 @@ header nav a:first-child {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* box colors */
+.boxes #one {
+    background: teal;
+}
+
+.boxes #two {
+    background: gold;
+}
+
+.boxes #three {
+    background: cadetblue;
+}
+
+.boxes #four {
+    background-color: coral;
+}
+
+.boxes #five {
+    background-color: crimson;
+}
+
+.boxes #six {
+    background-color: forestgreen;
+}
+
+.boxes #seven {
+    background-color: darkorchid;
+}
+
+.boxes #eight {
+    background-color: hotpink;
+}
+
+.boxes #nine {
+    background-color: indigo;
+}
+.boxes #ten {
+    background-color: dodgerblue;
+} 
 
 .bottom-content {
     display: flex;
