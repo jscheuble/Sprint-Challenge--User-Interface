@@ -95,9 +95,6 @@ header nav a:first-child {
     padding-bottom: 3%;
 }
 
-
-/* my code ends here */
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +134,13 @@ header nav a:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 300ms;
 }
+
+.middle-content .boxes .box:hover {
+    transform: rotate(45deg);
+}
+
 /* box colors */
 .boxes #one {
     background: teal;
@@ -229,12 +232,17 @@ section.about-info {
     border-bottom: 1px dashed black;
     width: 48%;
     margin-bottom: 4%;
+    transition-duration: 700ms;
 }
 .about-content div.right {
     transform: translateX(5%);
 }
 .about-content div.bottom {
     margin-top: 5%;
+}
+
+.about-content div:hover {
+    background: #d4a755;
 }
 
 .about-content h2 {
