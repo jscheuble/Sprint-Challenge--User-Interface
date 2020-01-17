@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+/* my code starts here */
+/* header styles */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:first-child {
+    transform: translateY(-20%);
+}
+
+.header-img {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +128,58 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 300ms;
 }
+
+.middle-content .boxes .box:hover {
+    transform: rotate(45deg);
+}
+
+/* box colors */
+.boxes #one {
+    background: teal;
+}
+
+.boxes #two {
+    background: gold;
+}
+
+.boxes #three {
+    background: cadetblue;
+}
+
+.boxes #four {
+    background-color: coral;
+}
+
+.boxes #five {
+    background-color: crimson;
+}
+
+.boxes #six {
+    background-color: forestgreen;
+}
+
+.boxes #seven {
+    background-color: darkorchid;
+}
+
+.boxes #eight {
+    background-color: hotpink;
+}
+
+.boxes #nine {
+    background-color: indigo;
+}
+.boxes #ten {
+    background-color: dodgerblue;
+} 
 
 .bottom-content {
     display: flex;
@@ -143,4 +212,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styles */
+section.about-info {
+    width: 800px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.about-content div {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 4%;
+    transition-duration: 700ms;
+}
+.about-content div.right {
+    transform: translateX(5%);
+}
+.about-content div.bottom {
+    margin-top: 5%;
+}
+
+.about-content div:hover {
+    background: #d4a755;
+}
+
+.about-content h2 {
+    padding-top: 3%;
+}
+
+.about-content p {
+    padding-bottom: 5%;
+}
+
+.about-content button {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+.about-bottom {
+    padding-bottom: 5%;
 }
