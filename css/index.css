@@ -210,3 +210,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page styles */
+section.about-info {
+    width: 800px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.about-content div {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 4%;
+}
+.about-content div.right {
+    transform: translateX(5%);
+}
+.about-content div.bottom {
+    margin-top: 5%;
+}
+
+.about-content h2 {
+    padding-top: 3%;
+}
+
+.about-content p {
+    padding-bottom: 5%;
+}
+
+.about-content button {
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+.about-bottom {
+    padding-bottom: 5%;
+}
